@@ -27,7 +27,7 @@ jobs:
           private-key: ${{ secrets.PRIVATE_KEY }}
           app-id: ${{ secrets.APP_ID }}
           owner: ${{ github.repository_owner }}
-          repositories: 'ehsanjso/sample-monorepo-3'
+          repositories: 'sample-monorepo-3'
       - name: Cache Node.js
         uses: actions/cache@v3
         with:
