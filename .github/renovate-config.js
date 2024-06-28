@@ -6,5 +6,5 @@ module.exports = {
   platform: 'github',
   includeForks: true,
   dryRun: 'full',
-  repositories: ['ehsanjso/sample-monorepo-2'],
+  repositories: ['ehsanjso/sample-monorepo-3'],
 };
