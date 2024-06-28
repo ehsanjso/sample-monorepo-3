@@ -331,7 +331,7 @@
         "circular-dependency-plugin": "^5.2.2",
         "clean-webpack-plugin": "^4.0.0",
         "command-line-usage": "^5.0.5",
-        "compression-webpack-plugin": "^9.2.0",
+        "compression-webpack-plugin": "^11.1.0",
         "convert-excel-to-json": "^1.7.0",
         "copy-webpack-plugin": "^10.2.4",
         "core-js": "^3.16.1",

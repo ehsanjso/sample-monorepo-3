@@ -817,8 +817,8 @@ devDependencies:
     specifier: ^5.0.5
     version: 5.0.5
   compression-webpack-plugin:
-    specifier: ^9.2.0
-    version: 9.2.0(webpack@5.91.0)
+    specifier: ^11.1.0
+    version: 11.1.0(webpack@5.91.0)
   convert-excel-to-json:
     specifier: ^1.7.0
     version: 1.7.0
@@ -15347,9 +15347,9 @@ packages:
     dependencies:
       mime-db: 1.52.0
 
-  /compression-webpack-plugin@9.2.0(webpack@5.91.0):
-    resolution: {integrity: sha512-R/Oi+2+UHotGfu72fJiRoVpuRifZT0tTC6UqFD/DUo+mv8dbOow9rVOuTvDv5nPPm3GZhHL/fKkwxwIHnJ8Nyw==}
-    engines: {node: '>= 12.13.0'}
+  /compression-webpack-plugin@11.1.0(webpack@5.91.0):
+    resolution: {integrity: sha512-zDOQYp10+upzLxW+VRSjEpRRwBXJdsb5lBMlRxx1g8hckIFBpe3DTI0en2w7h+beuq89576RVzfiXrkdPGrHhA==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
       webpack: ^5.1.0
     dependencies:
