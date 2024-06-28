@@ -337,7 +337,7 @@
         "core-js": "^3.16.1",
         "css-loader": "^6.5.1",
         "cssnano": "^5.0.16",
-        "del": "^4.1.1",
+        "del": "^7.1.0",
         "dotenv": "^16.0.1",
         "dpdm": "^3.14.0",
         "eslint-config-standard-with-typescript": "^34.0.1",
