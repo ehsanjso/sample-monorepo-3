@@ -1,0 +1,37 @@
+name: dependencies
+
+on:
+    workflow_dispatch: {}
+    schedule:
+        # "At 06:00 on Tuesday" UTC
+        # i.e. 7 am CET or 8 am CEST
+        # https://crontab.guru/#0_6_*_*_2
+        - cron: 0 6 * * 2
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+              with:
+                  ref: main
+            - uses: pnpm/action-setup@v4
+              with:
+                  run_install: |
+                      args: [--frozen-lockfile]
+            - uses: actions/setup-node@v4
+            - name: Update Dependencies
+              run: |
+                  npx npm-check-updates --upgrade --packageFile package.json
+                  npx pnpm install --lockfile-only
+            - name: Create Pull Request
+              with:
+                  committer: GitHub Actions <actions@github.com>
+                  commit-message: 'chore(deps): update all 🚀'
+                  title: 'chore(deps): update all 🚀'
+                  author: GitHub Actions <actions@github.com>
+                  branch: chore/update-dependencies
+                  branch-suffix: timestamp
+              uses: peter-evans/create-pull-request@v4.0.4
