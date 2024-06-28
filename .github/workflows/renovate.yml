@@ -76,7 +76,7 @@ jobs:
           # This enables the cache -- if this is set, it's not necessary to add it to renovate.json.
           RENOVATE_REPOSITORY_CACHE: ${{ github.event.inputs.repoCache || 'enabled' }}
 
-      - run: cd / && ls $cache_dir
+      - run: cd / && cd /tmp/renovate/ && ls -R
         shell: bash
 
       # Compression helps performance in the upload step!
