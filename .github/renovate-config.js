@@ -1,10 +1,10 @@
 module.exports = {
-  branchPrefix: 'test-renovate/',
-  username: 'renovate-release',
-  gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
-  onboarding: true,
-  platform: 'github',
-  includeForks: true,
-  dryRun: 'full',
-  repositories: ['ehsanjso/sample-monorepo-3'],
+  "branchPrefix": "test-renovate/",
+  "username": "renovate-release",
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "onboarding": true,
+  "platform": "github",
+  "forkProcessing": "enabled",
+  "dryRun": "full",
+  "repositories": ["ehsanjso/sample-monorepo-3"]
 };
