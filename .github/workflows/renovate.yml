@@ -20,6 +20,14 @@ jobs:
     name: Renovate
     runs-on: ubuntu-latest
     steps:
+      - name: Get token
+        id: get_token
+        uses: actions/create-github-app-token@v1
+        with:
+          private-key: ${{ secrets.private_key }}
+          app-id: ${{ secrets.app_id }}
+          owner: ${{ github.repository_owner }}
+          repositories: 'ehsanjso/sample-monorepo-3'
       - name: Cache Node.js
         uses: actions/cache@v3
         with:
