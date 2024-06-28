@@ -29,6 +29,8 @@ jobs:
             node-cache-${{ runner.os }}-
       - uses: actions/checkout@v4
 
+      - run: sudo chown -R 1000 /tmp/renovate
+
       - uses: renovatebot/github-action@v40.1.12
         with:
           configurationFile: .github/renovate-config.js
@@ -37,3 +39,5 @@ jobs:
         env:
           # This enables the cache -- if this is set, it's not necessary to add it to renovate.json.
           RENOVATE_REPOSITORY_CACHE: ${{ github.event.inputs.repoCache || 'enabled' }}
+
+      - run: sudo chown -R $(whoami) /tmp/renovate
