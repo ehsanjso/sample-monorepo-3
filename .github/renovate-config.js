@@ -5,6 +5,6 @@ module.exports = {
   "onboarding": true,
   "platform": "github",
   "forkProcessing": "enabled",
-  "dryRun": "full",
+  "dryRun": "null",
   "repositories": ["ehsanjso/sample-monorepo-3"]
 };
