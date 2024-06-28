@@ -79,10 +79,10 @@ jobs:
       - run: ls -a
         shell: bash
 
-      - run: ls $cache_dir
+      - run: cd / && ls -a
         shell: bash
 
-      - run: cd /tmp/renovate/ && ls -a
+      - run: cd ~ && ls -a
         shell: bash
 
       # Compression helps performance in the upload step!
