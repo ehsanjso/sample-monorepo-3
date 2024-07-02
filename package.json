@@ -57,7 +57,7 @@
         "@mapbox/mapbox-gl-draw": "^1.4.3",
         "@mapbox/mapbox-gl-geocoder": "^5.0.2",
         "@mui/styles": "^5.9.3",
-        "@react-hook/resize-observer": "^1.2.5",
+        "@react-hook/resize-observer": "^1.2.6",
         "@redux-devtools/extension": "^3.3.0",
         "@reduxjs/toolkit": "^1.9.3",
         "@sentry/core": "7.73.0",
