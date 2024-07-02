@@ -253,7 +253,7 @@
         "@graphql-codegen/typescript-operations": "^4.2.0",
         "@graphql-eslint/eslint-plugin": "^3.20.1",
         "@jest/types": "^29.6.3",
-        "@nx-aws-plugin/nx-aws-cache": "^3.2.0",
+        "@nx-aws-plugin/nx-aws-cache": "^3.2.1",
         "@nx/eslint-plugin": "19.0.6",
         "@nx/workspace": "19.0.6",
         "@originjs/vite-plugin-commonjs": "^1.0.3",
