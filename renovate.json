@@ -46,6 +46,6 @@
       "matchDepTypes": ["action"],
       "pinDigests": true
     },
-    { "groupName": "Node", "matchPackageNames": ["node"], "enabled": false },
+    { "groupName": "Node", "matchPackageNames": ["node"], "enabled": false }
   ]
 }
