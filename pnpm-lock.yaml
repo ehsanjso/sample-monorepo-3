@@ -493,7 +493,7 @@ devDependencies:
     specifier: ^0.6.6
     version: 0.6.8(@babel/preset-env@7.17.10)(@playwright/test@1.44.1)(@swc/core@1.5.7)(@types/react-dom@18.0.3)(@types/react@18.3.3)(esbuild@0.20.2)(prettier@3.2.5)(react-dom@18.2.0)(react@18.2.0)(typescript@4.6.4)(webpack-cli@5.1.4)
   '@commitlint/cli':
-    specifier: ^16.2.4
+    specifier: ^16.3.0
     version: 16.3.0(@swc/core@1.5.7)
   '@commitlint/config-conventional':
     specifier: ^16.2.4
