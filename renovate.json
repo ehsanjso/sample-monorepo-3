@@ -10,11 +10,7 @@
     ":noUnscheduledUpdates",
     "npm:unpublishSafe",
     "helpers:disableTypesNodeMajor",
-    "group:eslintMonorepo",
-    "group:reactMonorepo",
-    "group:jestMonorepo",
-    "group:testing-libraryMonorepo",
-    "group:typescript-eslintMonorepo"
+    "group:monorepos"
   ],
   "dependencyDashboard": true,
   "separateMinorPatch": true,
