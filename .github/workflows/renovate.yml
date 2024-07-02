@@ -16,11 +16,6 @@ jobs:
     name: Renovate
     runs-on: ubuntu-latest
     steps:
-      - name: Print APP_ID and PRIVATE_KEY
-        run: |
-          echo "APP_ID: ${{ vars.APP_ID }}"
-          echo "PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}"
-
       - uses: actions/create-github-app-token@v1
         id: app-token
         with:

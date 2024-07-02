@@ -1,7 +1,7 @@
 module.exports = {
   "branchPrefix": "test-renovate/",
-  "username": "renovate-release",
-  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "username": "renoappjso[bot]",
+  "gitAuthor": "RenoAppJso Bot <123456+renoappjso[bot]@users.noreply.github.enterprise.com>",
   "onboarding": true,
   "platform": "github",
   "forkProcessing": "enabled",
