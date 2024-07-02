@@ -17,7 +17,7 @@ overrides:
 
 dependencies:
   '@amcharts/amcharts3-react':
-    specifier: ^3.1.0
+    specifier: ^3.1.1
     version: 3.1.1(react-dom@18.2.0)(react@18.2.0)
   '@amcharts/amcharts4':
     specifier: ^4.10.15
