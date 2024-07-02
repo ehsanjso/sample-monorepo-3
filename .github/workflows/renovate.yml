@@ -16,12 +16,11 @@ jobs:
     name: Renovate
     runs-on: ubuntu-latest
     steps:
-      - name: Get token
-        id: get_token
-        uses: actions/create-github-app-token@v1
+      - uses: actions/create-github-app-token@v1
+        id: app-token
         with:
+          app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.PRIVATE_KEY }}
-          app-id: ${{ secrets.APP_ID }}
 
       - name: Cache Node.js
         uses: actions/cache@v3
