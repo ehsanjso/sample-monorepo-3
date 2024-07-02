@@ -1,7 +1,9 @@
 module.exports = {
-  "branchPrefix": "test-renovate/",
+  "platform": "github",
+  "branchPrefix": "sa-renovate/",
+  "dependencyDashboardTitle": "SA Dependency Dashboard",
   "onboarding": true,
   "platform": "github",
-  "forkProcessing": "enabled",
+  "onboardingBranch": "sa-renovate/configure",
   "repositories": ["ehsanjso/sample-monorepo-3"]
 };
