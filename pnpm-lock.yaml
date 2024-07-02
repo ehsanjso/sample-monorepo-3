@@ -74,7 +74,7 @@ dependencies:
     specifier: ^1.16.5
     version: 1.16.5(@stripe/stripe-js@1.54.2)(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/react-query':
-    specifier: ^4.24.4
+    specifier: ^4.24.10
     version: 4.36.1(react-dom@18.2.0)(react@18.2.0)
   '@thoughtspot/visual-embed-sdk':
     specifier: 1.21.1
