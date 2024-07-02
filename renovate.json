@@ -1,0 +1,47 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":approveMajorUpdates",
+    ":separateMajorReleases",
+    ":separateMultipleMajorReleases",
+    ":automergePatch",
+    ":automergeRequireAllStatusChecks",
+    ":noUnscheduledUpdates",
+    "npm:unpublishSafe",
+    "helpers:disableTypesNodeMajor",
+    "group:monorepos"
+  ],
+  "dependencyDashboard": true,
+  "separateMinorPatch": true,
+  "commitMessagePrefix": "Maintenance(N/A):",
+  "commitMessageAction": "",
+  "commitMessageExtra": "- {{currentValue}} -> {{newValue}} - ({{updateType}}) - [{{depType}}]",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageSuffix": "",
+  "rebaseWhen": "conflicted",
+  "ignoreDeps": [],
+  "labels": ["dependencies"],
+  "postUpdateOptions": ["pnpmDedupe"],
+  "prConcurrentLimit": 4,
+  "prHourlyLimit": 2,
+  "rangeStrategy": "bump",
+  "timezone": "America/Toronto",
+  "schedule": ["after 9am and before 5pm every weekday"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 6:00am on the first day of the month"]
+  },
+  "minor": {
+    "dependencyDashboardApproval": true
+  },
+  "packageRules": [
+    { "matchDepTypes": ["peerDependencies"], "rangeStrategy": "widen" },
+    { "groupName": "GitHub Actions", "matchManagers": ["github-actions"] },
+    {
+      "matchDepTypes": ["action"],
+      "pinDigests": true
+    },
+    { "groupName": "Node", "matchPackageNames": ["node"], "enabled": false }
+  ]
+}
