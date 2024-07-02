@@ -16,6 +16,13 @@ jobs:
     name: Renovate
     runs-on: ubuntu-latest
     steps:
+      - name: Get token
+        id: get_token
+        uses: actions/create-github-app-token@v1
+        with:
+          private-key: ${{ secrets.PRIVATE_KEY }}
+          app-id: ${{ secrets.APP_ID }}
+
       - name: Cache Node.js
         uses: actions/cache@v3
         with:
@@ -25,15 +32,8 @@ jobs:
             node-cache-${{ runner.os }}-
 
       - run: sudo chown -R 1000 /tmp/renovate
-      
-      - uses: actions/checkout@v4
 
-      - name: Get token
-        id: get_token
-        uses: actions/create-github-app-token@v1
-        with:
-          private-key: ${{ secrets.PRIVATE_KEY }}
-          app-id: ${{ secrets.APP_ID }}
+      - uses: actions/checkout@v4
 
       - uses: renovatebot/github-action@v40.1.12
         with:
