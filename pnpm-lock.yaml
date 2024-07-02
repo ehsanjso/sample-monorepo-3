@@ -38,7 +38,7 @@ dependencies:
     specifier: ^1.5.1
     version: 1.7.1
   '@hookform/resolvers':
-    specifier: ^3.1.0
+    specifier: ^3.1.1
     version: 3.4.2(react-hook-form@7.51.5)
   '@mapbox/mapbox-gl-draw':
     specifier: ^1.4.3
