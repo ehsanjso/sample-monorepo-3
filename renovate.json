@@ -12,12 +12,9 @@
     "helpers:disableTypesNodeMajor",
     "group:eslintMonorepo",
     "group:reactMonorepo",
-    "group:storybookMonorepo",
-    "group:emotionMonorepo",
     "group:jestMonorepo",
     "group:testing-libraryMonorepo",
-    "group:typescript-eslintMonorepo",
-    "group:material-uiMonorepo"
+    "group:typescript-eslintMonorepo"
   ],
   "dependencyDashboard": true,
   "separateMinorPatch": true,
@@ -50,9 +47,5 @@
       "pinDigests": true
     },
     { "groupName": "Node", "matchPackageNames": ["node"], "enabled": false },
-    {
-      "packagePatterns": ["^@mui/", "^material-ui"],
-      "dependencyDashboardApproval": true
-    }
   ]
 }
