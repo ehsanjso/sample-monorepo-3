@@ -592,8 +592,8 @@ devDependencies:
     specifier: ^2.8.0
     version: 2.17.0(webpack@5.91.0)
   '@shopify/web-pixels-extension':
-    specifier: 0.4.20
-    version: 0.4.20
+    specifier: 0.4.22
+    version: 0.4.22
   '@slack/types':
     specifier: ^2.11.0
     version: 2.11.0
@@ -8909,8 +8909,8 @@ packages:
       - supports-color
     dev: true
 
-  /@shopify/web-pixels-extension@0.4.20:
-    resolution: {integrity: sha512-R6/wRD8i4bZXBYqO0fb+BzHwlLwd0l2Zzh2oYLo7/6JGKDErr4dGH0I2Fgb8/QImKoszLFtPrT48WygBT+rl6Q==}
+  /@shopify/web-pixels-extension@0.4.22:
+    resolution: {integrity: sha512-F4Yg/GWdr40Ub81Gh7C+ce/JijFLe0NJMtRQxAGOKlIQf/zwnIaJg90uPY5FpI/YP8OTYxaYQ6xX/c7r5eLL9Q==}
     dev: true
 
   /@sinclair/typebox@0.27.8:
