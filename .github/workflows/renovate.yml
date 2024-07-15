@@ -10,6 +10,7 @@ on:
         options:
           - enabled
           - disable
+          - reset
 
 jobs:
   renovate:
@@ -22,7 +23,7 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.PRIVATE_KEY }}
 
-      - name: Cache Node.js
+      - name: Cache Renovate
         uses: actions/cache@v3
         with:
           path: /tmp/renovate/cache/renovate/
