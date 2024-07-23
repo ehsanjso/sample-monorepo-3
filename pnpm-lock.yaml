@@ -574,8 +574,8 @@ devDependencies:
     specifier: ^1.43
     version: 1.44.1
   '@pmmmwh/react-refresh-webpack-plugin':
-    specifier: ^0.5.4
-    version: 0.5.13(react-refresh@0.11.0)(webpack-dev-server@4.15.2)(webpack@5.91.0)
+    specifier: ^0.5.15
+    version: 0.5.15(react-refresh@0.11.0)(webpack-dev-server@4.15.2)(webpack@5.91.0)
   '@pnpm/lockfile-types':
     specifier: ^5.1.5
     version: 5.1.5
@@ -7189,7 +7189,7 @@ packages:
       '@nrwl/storybook': 14.1.4(@babel/core@7.24.6)(@babel/preset-env@7.17.10)(@swc/types@0.1.7)(babel-loader@8.3.0)(cypress@9.6.1)(eslint@8.15.0)(nx@14.8.9)(prettier@2.6.2)(ts-node@10.7.0)(typescript@4.6.4)(webpack@5.91.0)
       '@nrwl/web': 14.1.4(@swc/core@1.5.7)(@swc/types@0.1.7)(cypress@9.6.1)(esbuild@0.20.2)(eslint@8.15.0)(html-webpack-plugin@5.6.0)(nx@14.8.9)(prettier@2.6.2)(typescript@4.6.4)(webpack-cli@5.1.4)
       '@nrwl/workspace': 14.1.4(@swc/types@0.1.7)(eslint@8.15.0)(prettier@2.6.2)(ts-node@10.7.0)(typescript@4.6.4)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.13(react-refresh@0.10.0)(webpack-dev-server@4.15.2)(webpack@5.91.0)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.10.0)(webpack-dev-server@4.15.2)(webpack@5.91.0)
       '@storybook/node-logger': 6.1.20
       '@svgr/webpack': 6.5.1
       chalk: 4.1.0
@@ -7330,7 +7330,7 @@ packages:
       '@nrwl/js': 14.1.4(@swc/types@0.1.7)(eslint@8.15.0)(nx@14.8.9)(prettier@2.6.2)(ts-node@9.1.1)(typescript@4.6.4)
       '@nrwl/linter': 14.1.4(eslint@8.15.0)(nx@14.8.9)(ts-node@9.1.1)(typescript@4.6.4)
       '@nrwl/workspace': 14.1.4(@swc/types@0.1.7)(eslint@8.15.0)(prettier@2.6.2)(ts-node@9.1.1)(typescript@4.6.4)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.13(react-refresh@0.10.0)(webpack-dev-server@4.15.2)(webpack@5.91.0)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.10.0)(webpack-dev-server@4.15.2)(webpack@5.91.0)
       '@rollup/plugin-babel': 5.3.1(@babel/core@7.24.6)(rollup@2.79.1)
       '@rollup/plugin-commonjs': 20.0.0(rollup@2.79.1)
       '@rollup/plugin-image': 2.1.1(rollup@2.79.1)
@@ -7899,8 +7899,8 @@ packages:
       playwright: 1.44.1
     dev: true
 
-  /@pmmmwh/react-refresh-webpack-plugin@0.5.13(react-refresh@0.10.0)(webpack-dev-server@4.15.2)(webpack@5.91.0):
-    resolution: {integrity: sha512-odZVYXly+JwzYri9rKqqUAk0cY6zLpv4dxoKinhoJNShV36Gpxf+CyDIILJ4tYsJ1ZxIWs233Y39iVnynvDA/g==}
+  /@pmmmwh/react-refresh-webpack-plugin@0.5.15(react-refresh@0.10.0)(webpack-dev-server@4.15.2)(webpack@5.91.0):
+    resolution: {integrity: sha512-LFWllMA55pzB9D34w/wXUCf8+c+IYKuJDgxiZ3qMhl64KRMBHYM1I3VdGaD2BV5FNPV2/S2596bppxHbv2ZydQ==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       '@types/webpack': 4.x || 5.x
@@ -7925,20 +7925,20 @@ packages:
       webpack-plugin-serve:
         optional: true
     dependencies:
-      ansi-html-community: 0.0.8
+      ansi-html: 0.0.9
       core-js-pure: 3.37.1
       error-stack-parser: 2.1.4
       html-entities: 2.5.2
       loader-utils: 2.0.4
       react-refresh: 0.10.0
-      schema-utils: 3.3.0
+      schema-utils: 4.2.0
       source-map: 0.7.4
       webpack: 5.91.0(@swc/core@1.5.7)(esbuild@0.20.2)(webpack-cli@5.1.4)
       webpack-dev-server: 4.15.2(webpack-cli@5.1.4)(webpack@5.91.0)
     dev: true
 
-  /@pmmmwh/react-refresh-webpack-plugin@0.5.13(react-refresh@0.11.0)(webpack-dev-server@4.15.2)(webpack@5.91.0):
-    resolution: {integrity: sha512-odZVYXly+JwzYri9rKqqUAk0cY6zLpv4dxoKinhoJNShV36Gpxf+CyDIILJ4tYsJ1ZxIWs233Y39iVnynvDA/g==}
+  /@pmmmwh/react-refresh-webpack-plugin@0.5.15(react-refresh@0.11.0)(webpack-dev-server@4.15.2)(webpack@5.91.0):
+    resolution: {integrity: sha512-LFWllMA55pzB9D34w/wXUCf8+c+IYKuJDgxiZ3qMhl64KRMBHYM1I3VdGaD2BV5FNPV2/S2596bppxHbv2ZydQ==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       '@types/webpack': 4.x || 5.x
@@ -7963,13 +7963,13 @@ packages:
       webpack-plugin-serve:
         optional: true
     dependencies:
-      ansi-html-community: 0.0.8
+      ansi-html: 0.0.9
       core-js-pure: 3.37.1
       error-stack-parser: 2.1.4
       html-entities: 2.5.2
       loader-utils: 2.0.4
       react-refresh: 0.11.0
-      schema-utils: 3.3.0
+      schema-utils: 4.2.0
       source-map: 0.7.4
       webpack: 5.91.0(@swc/core@1.5.7)(esbuild@0.20.2)(webpack-cli@5.1.4)
       webpack-dev-server: 4.15.2(webpack-cli@5.1.4)(webpack@5.91.0)
@@ -13429,6 +13429,12 @@ packages:
     resolution: {integrity: sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==}
     engines: {'0': node >= 0.8.0}
     hasBin: true
+
+  /ansi-html@0.0.9:
+    resolution: {integrity: sha512-ozbS3LuenHVxNRh/wdnN16QapUHzauqSomAl1jwwJRRsGwFwtj644lIhxfWu0Fy0acCij2+AEgHvjscq3dlVXg==}
+    engines: {'0': node >= 0.8.0}
+    hasBin: true
+    dev: true
 
   /ansi-regex@2.1.1:
     resolution: {integrity: sha512-TIGnTpdo+E3+pCyAluZvtED5p5wCqLdezCyhPZzKPcxvFplEt4i+W7OONCKgeZFT3+y5NZZfOOS/Bdcanm1MYA==}
