@@ -26,8 +26,8 @@ dependencies:
     specifier: ^4.1.22
     version: 4.1.28
   '@beefree.io/sdk':
-    specifier: ^4.2.2
-    version: 4.3.0
+    specifier: ^4.3.5
+    version: 4.3.5
   '@date-io/dayjs':
     specifier: ^2.17.0
     version: 2.17.0(dayjs@1.11.11)
@@ -4115,8 +4115,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@beefree.io/sdk@4.3.0:
-    resolution: {integrity: sha512-xLtv/qQ+nLhmDrHXihMOwwDWqwymxa1WY34rN98nF2qaq6jorHnUYG4spD6RJQkRo/N5nTy8gSeHGv0H39hI1w==}
+  /@beefree.io/sdk@4.3.5:
+    resolution: {integrity: sha512-3NZIwoiB88ReocnHixk8uCamGmRXd6cFhT9yFPejxDaJyMUU+NOaTvKAkhZtz0UR8g9lkw94y0hMxKsSqVlAfw==}
     dependencies:
       axios: 1.7.2
       csstype: 3.1.3
