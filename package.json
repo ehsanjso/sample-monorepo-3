@@ -59,7 +59,7 @@
         "@mui/styles": "^5.9.3",
         "@react-hook/resize-observer": "^1.2.5",
         "@redux-devtools/extension": "^3.3.0",
-        "@reduxjs/toolkit": "^1.9.3",
+        "@reduxjs/toolkit": "^1.9.7",
         "@sentry/core": "7.73.0",
         "@sentry/fullstory": "2.0.0",
         "@sentry/react": "7.73.0",
