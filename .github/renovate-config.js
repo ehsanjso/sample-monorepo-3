@@ -5,5 +5,5 @@ module.exports = {
   "onboarding": true,
   "platform": "github",
   "onboardingBranch": "sa-renovate/configure",
-  "repositories": ["ehsanjso/sample-monorepo-3"]
+  "repositories": ["djeso/sample-monorepo"]
 };
