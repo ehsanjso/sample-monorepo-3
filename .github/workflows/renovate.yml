@@ -23,6 +23,9 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.PRIVATE_KEY }}
 
+      - run: mkdir /tmp/renovate
+      - run: sudo chown -R $(whoami) /tmp/renovate
+
       - name: Cache Renovate
         uses: actions/cache@v3
         with:
@@ -30,8 +33,6 @@ jobs:
           key: node-cache-${{ runner.os }}-${{ hashFiles('.github/renovate-config.js') }}
           restore-keys: |
             node-cache-${{ runner.os }}-
-
-      - run: sudo chown -R 1000 /tmp/renovate
 
       - uses: actions/checkout@v4
 
