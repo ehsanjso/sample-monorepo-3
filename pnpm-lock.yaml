@@ -598,7 +598,7 @@ devDependencies:
     specifier: ^2.11.0
     version: 2.11.0
   '@stripe/stripe-js':
-    specifier: ^1.46.0
+    specifier: ^1.54.2
     version: 1.54.2
   '@swc/core':
     specifier: ^1.4.8

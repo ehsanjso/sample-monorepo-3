@@ -267,7 +267,7 @@
         "@sentry/webpack-plugin": "^2.8.0",
         "@shopify/web-pixels-extension": "0.4.20",
         "@slack/types": "^2.11.0",
-        "@stripe/stripe-js": "^1.46.0",
+        "@stripe/stripe-js": "^1.54.2",
         "@swc/core": "^1.4.8",
         "@swc/jest": "^0.2.36",
         "@testing-library/jest-dom": "^6.2.0",
