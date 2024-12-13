@@ -68,7 +68,7 @@ dependencies:
     specifier: 7.73.0
     version: 7.73.0(react@18.2.0)
   '@slack/web-api':
-    specifier: ^6.8.1
+    specifier: ^6.12.0
     version: 6.12.0
   '@stripe/react-stripe-js':
     specifier: ^1.16.5
