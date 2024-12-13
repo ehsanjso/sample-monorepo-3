@@ -263,7 +263,7 @@
         "@pnpm/lockfile-types": "^5.1.5",
         "@rollup/plugin-graphql": "^2.0.3",
         "@sentry/types": "7.73.0",
-        "@sentry/vite-plugin": "^2.14.0",
+        "@sentry/vite-plugin": "^2.14.3",
         "@sentry/webpack-plugin": "^2.8.0",
         "@shopify/web-pixels-extension": "0.4.20",
         "@slack/types": "^2.11.0",
