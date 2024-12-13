@@ -625,7 +625,7 @@ devDependencies:
     specifier: ^2.3.0
     version: 2.3.1
   '@types/color':
-    specifier: ^3.0.1
+    specifier: ^3.0.6
     version: 3.0.6
   '@types/convert-excel-to-json':
     specifier: ^1.7.1
