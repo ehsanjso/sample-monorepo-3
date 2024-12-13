@@ -65,7 +65,7 @@
         "@sentry/react": "7.73.0",
         "@slack/web-api": "^6.8.1",
         "@stripe/react-stripe-js": "^1.16.5",
-        "@tanstack/react-query": "^4.24.4",
+        "@tanstack/react-query": "^4.24.10",
         "@thoughtspot/visual-embed-sdk": "1.21.1",
         "@turf/turf": "^6.5.0",
         "adm-zip": "^0.5.10",
