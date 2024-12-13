@@ -265,7 +265,7 @@
         "@sentry/types": "7.73.0",
         "@sentry/vite-plugin": "^2.14.0",
         "@sentry/webpack-plugin": "^2.8.0",
-        "@shopify/web-pixels-extension": "0.4.20",
+        "@shopify/web-pixels-extension": "0.4.22",
         "@slack/types": "^2.11.0",
         "@stripe/stripe-js": "^1.46.0",
         "@swc/core": "^1.4.8",
